@@ -33,7 +33,7 @@ A circular AlertView with animations. Really easy to use!
   s.source_files = 'RMCircularAlert/Classes/**/*'
   
    s.resource_bundles = {
-     'RMCircularAlert' => ['RMCircularAlert/Assets/*.xcassets']
+     'RMCircularAlert' => ['RMCircularAlert/Assets/**/*.xcassets']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
