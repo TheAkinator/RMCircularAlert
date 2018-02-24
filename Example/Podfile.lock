@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+  - RMCircularAlert (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+  - RMCircularAlert (from `../`)
+
+EXTERNAL SOURCES:
+  RMCircularAlert:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  RMCircularAlert: 32f5e38481228838747474bfb649a8b64e3fd116
+
+PODFILE CHECKSUM: ccea68df8c1b4ae1facf460c60e588757d687cce
+
+COCOAPODS: 1.4.0

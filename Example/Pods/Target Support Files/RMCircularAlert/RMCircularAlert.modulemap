@@ -1,0 +1,6 @@
+framework module RMCircularAlert {
+  umbrella header "RMCircularAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

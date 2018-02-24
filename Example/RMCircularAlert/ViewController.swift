@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func open(_ sender: Any) {
-        CircularAlertView().presentNormalAlert(withTitle: "ERROR", andMessage: "View could not be rendered! Try to use some other method or class call. View could not be rendered! Try to use some other method or class call. View could not be rendered! Try to use some other method or class call. View could not be rendered! Try to use some other method or class call.")
+        CircularAlertView().presentNormalAlert(withTitle: "ERROR", andMessage: "View could not be rendered! ")
     }
     
     override func didReceiveMemoryWarning() {
