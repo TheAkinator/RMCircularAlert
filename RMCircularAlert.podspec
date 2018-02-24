@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RMCircularAlert'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RMCircularAlert.'
+  s.summary          = 'A circular AlertView with animations'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A circular AlertView with animations. Really easy to use!
                        DESC
 
-  s.homepage         = 'https://github.com/raulmo1337@gmail.com/RMCircularAlert'
+  s.homepage         = 'https://github.com/raulmo1337/RMCircularAlert'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'raulmo1337@gmail.com' => 'raulmo1337@gmail.com' }
-  s.source           = { :git => 'https://github.com/raulmo1337@gmail.com/RMCircularAlert.git', :tag => s.version.to_s }
+  s.author           = { 'Raul Marques' => 'raulmo1337@gmail.com' }
+  s.source           = { :git => 'https://github.com/raulmo1337/RMCircularAlert.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RMCircularAlert/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'RMCircularAlert' => ['RMCircularAlert/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'RMCircularAlert' => ['RMCircularAlert/Assets/*.xcassets']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
