@@ -542,9 +542,7 @@
 			isa = PBXGroup;
 			children = (
 				C47E39F020409A1900250F32 /* RMCircularAlert */,
-				C47E39F720409A1900250F32 /* Images.xcassets */,
 				D911A3D0D24579B6B19CF6DB5C404281 /* Pod */,
-				E3F8A45B01F7BCC7FAE67AE552FAE106 /* Resources */,
 				F066EFCAA3001C4A23667E2605934C54 /* Support Files */,
 			);
 			name = RMCircularAlert;
@@ -595,6 +593,7 @@
 		C47E39F020409A1900250F32 /* RMCircularAlert */ = {
 			isa = PBXGroup;
 			children = (
+				C47E3A042041FC0100250F32 /* Assets */,
 				C47E39F120409A1900250F32 /* Classes */,
 			);
 			path = RMCircularAlert;
@@ -612,6 +611,14 @@
 				C47E3A022040BA2900250F32 /* CenterCircleView.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		C47E3A042041FC0100250F32 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C47E39F720409A1900250F32 /* Images.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		D5063904370CE5B316DCDBB28E6D32FD /* Development Pods */ = {
@@ -688,13 +695,6 @@
 			);
 			name = "Pods-RMCircularAlert_Example";
 			path = "Target Support Files/Pods-RMCircularAlert_Example";
-			sourceTree = "<group>";
-		};
-		E3F8A45B01F7BCC7FAE67AE552FAE106 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		F066EFCAA3001C4A23667E2605934C54 /* Support Files */ = {
