@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func open(_ sender: Any) {
-        CircularAlertView().presentNormalAlert(withTitle: "ERROR", andMessage: "View could not be rendered! ")
+        CircularAlertView().presentNormalAlert(withTitle: "Fetch Error", andMessage: "Some thing went wrong while fetching data from server! Make sure that your end Point is right")
     }
     
     override func didReceiveMemoryWarning() {

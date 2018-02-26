@@ -24,6 +24,10 @@ public class CircularAlertView: UIView {
         superView = Helper.getCurrentViewController(rvc)?.view
         configureView()
         
+        // adding gesture
+        let swipeUp = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture(gesture:)))
+        swipeUp.direction = .up
+        self.addGestureRecognizer(swipeUp)
         
         
         
@@ -58,7 +62,18 @@ public class CircularAlertView: UIView {
 
     }
     
-
+    @objc func respondToSwipeGesture(gesture: UIGestureRecognizer) {
+        
+        if let swipeGesture = gesture as? UISwipeGestureRecognizer {
+            
+            switch swipeGesture.direction {
+            case .up:
+                dismissAlert()
+            default:
+                break
+            }
+        }
+    }
 }
 
 
