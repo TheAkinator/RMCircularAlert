@@ -28,15 +28,30 @@ class AlertIcon: UIImageView {
         fatalError("init(coder:) has not been implemented")
     }
     
+//    private func getImageFromBundle(name: String) -> UIImage {
+//        let podBundle = Bundle(for: AlertIcon.self)
+//        if let image = UIImage(named: name, in: podBundle, compatibleWith: nil) {
+//            return image
+//        }
+//
+//        return UIImage()
+//    }
     private func getImageFromBundle(name: String) -> UIImage {
         let podBundle = Bundle(for: AlertIcon.self)
-        if let image = UIImage(named: name, in: podBundle, compatibleWith: nil) {
-            return image
+
+        if let bundleURL = podBundle.url(forResource: "RMCircularAlert", withExtension: "bundle") {
+
+            if let bundle = Bundle(url: bundleURL) {
+                if let image = UIImage(named: name, in: bundle, compatibleWith: nil) {
+                    return image
+                }
+
+            }
         }
-    
+
         return UIImage()
+
     }
-    
 }
 
 
