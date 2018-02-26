@@ -7,7 +7,7 @@
 This is a easy to use `AlertView` that can be used to display a UI message to the user.
 
 
-![BackgroundImage](https://raw.githubusercontent.com/vikmeup/SCPopUpView/master/successScreenshot.png)_
+![BackgroundImage](https://github.com/raulmo1337/RMCircularAlert/blob/master/Prints/Alert_print_example.png)_
 
 ## Usage
 
