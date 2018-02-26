@@ -7,7 +7,7 @@
 This is a easy to use `AlertView` that can be used to display a UI message to the user.
 
 
-![BackgroundImage](https://github.com/raulmo1337/RMCircularAlert/blob/master/Prints/Alert_print_example.png =375×667)
+![BackgroundImage](https://github.com/raulmo1337/RMCircularAlert/blob/master/Prints/Alert_print_example.png)
 
 ## Usage
 
